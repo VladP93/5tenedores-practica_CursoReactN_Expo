@@ -58,7 +58,7 @@ export default function ListReview(props) {
         <View>
           <Text
             style={styles.textNotLog}
-            onPress={() => navigation.navigate("login")}
+            onPress={() => navigation.navigate("accounts", { screen: "login" })}
           >
             Se requiere iniciar sesión para comentar {"\n"}
             <Text style={{ fontWeight: "bold" }}>
